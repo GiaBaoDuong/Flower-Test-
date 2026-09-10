@@ -1,8 +1,9 @@
 const messages = [
   "Hôm nay em đi học có mệt hong ? ",
-  "Tặng em bông hoa anh làm nè, cười lên coi ",
-  "Đừng căng thẳng nữa, có anh ở đây mà ",
-  "Cố lên Dĩnh nhé, anh đợi em về ~~",
+  "Nay anh nhớ em lắm, mà hong thấy em nhắn nên thôi ",
+  "Biết em bận rồi, nhưng mà lâu lâu nhớ nhắn cho anh 1 tin nha",
+  "Giữ sức khỏe em nhé, đừng cố quá ~~",
+  "Anh yêu em ",
   "Gia Bao"
 ];
 

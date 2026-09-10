@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 310 420" role="img" aria-labelledby="title desc">
   <title id="title">Mixed flower bouquet</title>
-  <desc id="desc">A simple hand-drawn style bouquet with sunflowers, small daisies, green stems, and leaves.</desc>
+  <desc id="desc">A simple hand-drawn style bouquet with sunflowers, small daisies, pastel blooms, green stems, and leaves.</desc>
   <defs>
     <g id="large-petal">
       <ellipse cx="0" cy="-51" rx="16" ry="34" fill="#ffe100"/>
@@ -22,6 +22,14 @@
       <ellipse cx="0" cy="-18" rx="7" ry="14" fill="#c9b3f5"/>
       <ellipse cx="0" cy="-19" rx="4" ry="10" fill="#e0d3ff" opacity=".68"/>
     </g>
+    <g id="peach-petal">
+      <ellipse cx="0" cy="-20" rx="7" ry="15" fill="#ffb78c"/>
+      <ellipse cx="0" cy="-21" rx="4" ry="10" fill="#ffd3ba" opacity=".7"/>
+    </g>
+    <g id="blue-petal">
+      <ellipse cx="0" cy="-18" rx="7" ry="14" fill="#9fc8ff"/>
+      <ellipse cx="0" cy="-19" rx="4" ry="10" fill="#d7e9ff" opacity=".72"/>
+    </g>
   </defs>
 
   <g fill="none" stroke-linecap="round">
@@ -31,6 +39,11 @@
     <path d="M130 192 C136 258 124 329 103 406" stroke="#75a52d" stroke-width="8"/>
     <path d="M139 391 C161 297 190 213 224 142" stroke="#76a82f" stroke-width="7"/>
     <path d="M118 394 C130 318 169 260 232 220" stroke="#6fa12b" stroke-width="6"/>
+    <path d="M135 394 C133 314 126 214 121 93" stroke="#79ad35" stroke-width="5"/>
+    <path d="M120 396 C105 309 82 237 48 178" stroke="#6da22f" stroke-width="5"/>
+    <path d="M151 392 C156 313 173 249 199 198" stroke="#77a934" stroke-width="5"/>
+    <path d="M158 395 C156 322 154 267 154 212" stroke="#6fa52d" stroke-width="4"/>
+    <path d="M142 394 C156 309 187 222 207 111" stroke="#81b23b" stroke-width="4"/>
   </g>
 
   <path d="M103 205 C77 201 58 211 48 232 C75 241 98 231 103 205Z" fill="#69a934"/>
@@ -41,6 +54,85 @@
   <path d="M166 180 C188 168 198 146 196 116 C168 125 154 148 166 180Z" fill="#5d9d2b"/>
   <path d="M207 181 C231 174 253 181 265 201 C240 215 215 207 207 181Z" fill="#5ba12d"/>
   <path d="M189 244 C215 241 238 253 251 276 C222 284 198 273 189 244Z" fill="#579b2c"/>
+  <path d="M118 166 C91 164 72 177 63 200 C91 207 113 195 118 166Z" fill="#72ad3c"/>
+  <path d="M151 187 C125 184 105 196 96 220 C123 225 146 213 151 187Z" fill="#619f2b"/>
+  <path d="M194 156 C214 144 222 125 219 100 C195 109 183 130 194 156Z" fill="#6aac35"/>
+  <path d="M162 253 C188 251 208 264 218 288 C190 294 169 281 162 253Z" fill="#559729"/>
+
+  <g transform="translate(121 93) rotate(-7)">
+    <g>
+      <use href="#peach-petal" transform="rotate(0)"/>
+      <use href="#peach-petal" transform="rotate(45)"/>
+      <use href="#peach-petal" transform="rotate(90)"/>
+      <use href="#peach-petal" transform="rotate(135)"/>
+      <use href="#peach-petal" transform="rotate(180)"/>
+      <use href="#peach-petal" transform="rotate(225)"/>
+      <use href="#peach-petal" transform="rotate(270)"/>
+      <use href="#peach-petal" transform="rotate(315)"/>
+    </g>
+    <circle r="11" fill="#ffe07a"/>
+    <circle r="5" fill="#8a543d" opacity=".72"/>
+  </g>
+
+  <g transform="translate(48 178) rotate(-24)">
+    <g>
+      <use href="#lavender-petal" transform="rotate(0)"/>
+      <use href="#lavender-petal" transform="rotate(45)"/>
+      <use href="#lavender-petal" transform="rotate(90)"/>
+      <use href="#lavender-petal" transform="rotate(135)"/>
+      <use href="#lavender-petal" transform="rotate(180)"/>
+      <use href="#lavender-petal" transform="rotate(225)"/>
+      <use href="#lavender-petal" transform="rotate(270)"/>
+      <use href="#lavender-petal" transform="rotate(315)"/>
+    </g>
+    <circle r="10" fill="#f8d86b"/>
+  </g>
+
+  <g transform="translate(199 198) rotate(17)">
+    <g>
+      <use href="#blue-petal" transform="rotate(0)"/>
+      <use href="#blue-petal" transform="rotate(40)"/>
+      <use href="#blue-petal" transform="rotate(80)"/>
+      <use href="#blue-petal" transform="rotate(120)"/>
+      <use href="#blue-petal" transform="rotate(160)"/>
+      <use href="#blue-petal" transform="rotate(200)"/>
+      <use href="#blue-petal" transform="rotate(240)"/>
+      <use href="#blue-petal" transform="rotate(280)"/>
+      <use href="#blue-petal" transform="rotate(320)"/>
+    </g>
+    <circle r="10" fill="#f7d96d"/>
+  </g>
+
+  <g transform="translate(154 212) rotate(-10)">
+    <g>
+      <use href="#white-petal" transform="scale(.78) rotate(0)"/>
+      <use href="#white-petal" transform="scale(.78) rotate(45)"/>
+      <use href="#white-petal" transform="scale(.78) rotate(90)"/>
+      <use href="#white-petal" transform="scale(.78) rotate(135)"/>
+      <use href="#white-petal" transform="scale(.78) rotate(180)"/>
+      <use href="#white-petal" transform="scale(.78) rotate(225)"/>
+      <use href="#white-petal" transform="scale(.78) rotate(270)"/>
+      <use href="#white-petal" transform="scale(.78) rotate(315)"/>
+    </g>
+    <circle r="9" fill="#e7a93b"/>
+    <circle r="4" fill="#80513a" opacity=".7"/>
+  </g>
+
+  <g transform="translate(207 111) rotate(20)">
+    <g>
+      <use href="#pink-petal" transform="scale(.82) rotate(0)"/>
+      <use href="#pink-petal" transform="scale(.82) rotate(40)"/>
+      <use href="#pink-petal" transform="scale(.82) rotate(80)"/>
+      <use href="#pink-petal" transform="scale(.82) rotate(120)"/>
+      <use href="#pink-petal" transform="scale(.82) rotate(160)"/>
+      <use href="#pink-petal" transform="scale(.82) rotate(200)"/>
+      <use href="#pink-petal" transform="scale(.82) rotate(240)"/>
+      <use href="#pink-petal" transform="scale(.82) rotate(280)"/>
+      <use href="#pink-petal" transform="scale(.82) rotate(320)"/>
+    </g>
+    <circle r="10" fill="#ffd55c"/>
+    <circle r="5" fill="#8a543d" opacity=".7"/>
+  </g>
 
   <g transform="translate(70 110) rotate(-13)">
     <g>
